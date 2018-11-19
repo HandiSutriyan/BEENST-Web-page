@@ -1,0 +1,60 @@
+body{
+	margin:10px;
+	padding:5px;
+}
+header{
+	margin-bottom: 5px;
+}
+.judul{
+	color:orange;
+}
+.boardLeft{
+	background-color: #d35400;
+	height:10px;
+}
+.boardRight{
+	background-color: #2c3e50;
+	height: 10px;
+}
+.news{
+	background-image: url('../src/news.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+}
+.news .jumbotron{
+	margin-top: 15px;
+	padding-top: 5px;
+	background-color: #3498db;
+	color:#fff;
+	opacity: 0.8;
+	position: relative;
+}
+.news .jumbotron:hover{
+	background-color: #2980b9;
+}
+.news .jumbotron .content{
+	opacity: 1;
+}
+.menuTitle{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.menu{
+	padding:2px;
+	text-align: center;
+}
+.menu .jumbotron{
+	background-color: #f39c12
+}
+.menu .jumbotron:hover{
+	background-color: #e67e22;
+}
+footer{
+	background-color: #e67e22;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color:#fff;
+}
